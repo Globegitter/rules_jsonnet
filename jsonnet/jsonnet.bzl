@@ -743,7 +743,7 @@ def jsonnet_repositories():
   native.http_archive(
       name = "jsonnet",
       urls = [
-          "https://mirror.bazel.build/github.com/google/jsonnet/archive/v0.11.2.tar.gz"
+          "https://mirror.bazel.build/github.com/google/jsonnet/archive/v0.11.2.tar.gz",
           "https://github.com/google/jsonnet/archive/v0.11.2.tar.gz",
       ],
       sha256 = "c7c33f159a9391e90ab646b3b5fd671dab356d8563dc447ee824ecd77f4609f8",
